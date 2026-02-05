@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | HAFIZ MUHAMMAD MEELAD RAZA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="brand">HAFIZ MUHAMMAD MEELAD RAZA</div>
+        <div class="nav-actions">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="admin.html" class="nav-link">Admin Panel</a>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light mode">
+            <span class="toggle-icon" aria-hidden="true">☾</span>
+            <span class="toggle-text">Dark</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="auth-page">
+      <section class="auth-card">
+        <p class="eyebrow">Create account</p>
+        <h1>Sign up to manage your portfolio</h1>
+        <p class="muted">Register with email or connect your Google account.</p>
+        <form class="auth-form" id="signupForm">
+          <label>
+            Full Name
+            <input type="text" name="name" placeholder="Your full name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" placeholder="Create a password" required />
+          </label>
+          <button class="button primary" type="submit">Create Account</button>
+          <button class="button ghost" type="button">Sign up with Google</button>
+        </form>
+        <p class="form-note">Already have an account? <a href="login.html">Sign in here.</a></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
