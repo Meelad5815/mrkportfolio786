@@ -117,3 +117,122 @@
     <script src="script.js"></script>
   </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel | HAFIZ MUHAMMAD MEELAD RAZA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="brand">HAFIZ MUHAMMAD MEELAD RAZA</div>
+        <div class="nav-actions">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="signup.html" class="nav-link">Sign Up</a>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light mode">
+            <span class="toggle-icon" aria-hidden="true">☾</span>
+            <span class="toggle-text">Dark</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="admin-page">
+      <section class="admin-hero">
+        <div>
+          <p class="eyebrow">Admin Control</p>
+          <h1>Manage your posts, projects, and media</h1>
+          <p class="muted">
+            This dashboard is a front-end demo for your private admin control. Connect it to your preferred backend to
+            enforce secure access.
+          </p>
+        </div>
+        <div class="admin-access">
+          <h3>Admin Access</h3>
+          <p class="muted">Only you should enable admin access. Share with trusted collaborators if needed.</p>
+          <form id="adminAccessForm" class="inline-form">
+            <input type="password" name="passcode" placeholder="Enter admin passcode" required />
+            <button class="button primary" type="submit">Enable Admin</button>
+          </form>
+          <button class="button ghost" id="disableAdmin" type="button">Disable Admin</button>
+          <p class="form-note" id="adminStatus">Admin access is currently disabled.</p>
+        </div>
+      </section>
+
+      <section class="admin-grid">
+        <div class="admin-card">
+          <h2>Upload a New Post</h2>
+          <form id="postForm" class="admin-form">
+            <label>
+              Post Title
+              <input type="text" name="title" placeholder="Project or post title" required />
+            </label>
+            <label>
+              Description
+              <textarea name="description" rows="4" placeholder="Write a short description" required></textarea>
+            </label>
+            <label>
+              Image URL (optional)
+              <input type="url" name="image" placeholder="https://example.com/image.jpg" />
+            </label>
+            <button class="button primary" type="submit">Upload Post</button>
+          </form>
+        </div>
+
+        <div class="admin-card">
+          <h2>Posts Preview</h2>
+          <div id="postList" class="post-list"></div>
+        </div>
+      </section>
+
+      <section class="admin-grid">
+        <div class="admin-card">
+          <h2>Grant Admin Access</h2>
+          <form id="grantForm" class="admin-form">
+            <label>
+              Admin Email
+              <input type="email" name="email" placeholder="collaborator@example.com" required />
+            </label>
+            <button class="button secondary" type="submit">Grant Access</button>
+          </form>
+          <ul id="adminList" class="admin-list"></ul>
+        </div>
+        <div class="admin-card">
+          <h2>Upload Media</h2>
+          <form class="admin-form">
+            <label>
+              Media Title
+              <input type="text" placeholder="Portfolio photo or asset" />
+            </label>
+            <label>
+              File Upload
+              <input type="file" accept="image/*" />
+            </label>
+            <button class="button secondary" type="button">Upload (demo)</button>
+          </form>
+          <p class="form-note">Connect this input to cloud storage for real uploads.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h3>HAFIZ MUHAMMAD MEELAD RAZA</h3>
+        <p>Admin dashboard preview • Secure access when connected to backend.</p>
+      </div>
+      <p class="copyright">© 2024 HAFIZ MUHAMMAD MEELAD RAZA. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
