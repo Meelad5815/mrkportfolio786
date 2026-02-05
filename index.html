@@ -16,7 +16,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
       rel="stylesheet"
     />
@@ -25,27 +24,14 @@
   <body>
     <header class="site-header">
       <nav class="nav">
-        <a class="logo" href="#hero">HMMR</a>
-        <button class="nav-toggle" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div class="nav-links" data-visible="false">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
-          <span class="theme-toggle__icon">🌙</span>
-        </button>
         <div class="brand">HAFIZ MUHAMMAD MEELAD RAZA</div>
         <div class="nav-actions">
           <a href="#projects" class="nav-link">Projects</a>
           <a href="#services" class="nav-link">Services</a>
           <a href="#contact" class="nav-link">Contact</a>
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="signup.html" class="nav-link">Sign Up</a>
+          <a href="admin.html" class="nav-link">Admin Panel</a>
           <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light mode">
             <span class="toggle-icon" aria-hidden="true">☾</span>
             <span class="toggle-text">Dark</span>
@@ -55,53 +41,6 @@
     </header>
 
     <main>
-      <section id="hero" class="hero">
-        <div class="hero-content">
-          <p class="hero-eyebrow">Hello, I am</p>
-          <h1>HAFIZ MUHAMMAD MEELAD RAZA</h1>
-          <h2>Full Stack Web Developer</h2>
-          <p class="hero-tagline">
-            I build clean, responsive, and conversion-focused web experiences for
-            clients, companies, and ambitious startups.
-          </p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#contact">Hire Me</a>
-            <a class="btn ghost" href="#contact">Contact Me</a>
-          </div>
-        </div>
-        <div class="hero-card">
-          <div class="hero-card__item">
-            <h3>Trust & Professionalism</h3>
-            <p>
-              Reliable communication, on-time delivery, and long-term partnership
-              mindset for every project.
-            </p>
-          </div>
-          <div class="hero-card__item">
-            <h3>Modern & Responsive</h3>
-            <p>
-              Tailored interfaces that feel great on desktop, tablet, and mobile.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="section about">
-        <div class="section-heading">
-          <p class="section-label">About Me</p>
-          <h2>Crafting digital experiences that grow your business.</h2>
-        </div>
-        <div class="about-grid">
-          <p>
-            I am a Full Stack Web Developer passionate about building scalable,
-            modern web applications and polished portfolio websites for
-            freelancers and companies. I focus on clean architecture, high
-            performance, and user-focused design to help your brand stand out.
-          </p>
-          <p>
-            Continuous learning keeps me ahead of the curve in a fast-moving
-            industry. I love collaborating with clients to deliver solutions
-            that feel professional, trustworthy, and future-ready.
       <section class="hero" id="home">
         <div class="hero-content">
           <p class="eyebrow">Full Stack Web Developer</p>
@@ -156,97 +95,12 @@
           </p>
           <p>
             I believe in continuous learning and professional growth, staying up to date with the latest tools, best
-            practices, and technologies. My mission is to turn ideas into dependable products with clean code and a
-            polished user experience.
+            practices, and technologies. I am also a Hafiz-e-Quran, and I bring integrity, patience, and discipline to
+            every project I take on.
           </p>
         </div>
       </section>
 
-      <section id="skills" class="section skills">
-        <div class="section-heading">
-          <p class="section-label">Skills</p>
-          <h2>Technologies I use to bring ideas to life.</h2>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-card">HTML5 &amp; Semantic Markup</div>
-          <div class="skill-card">CSS3, Modern Layouts &amp; Animations</div>
-          <div class="skill-card">JavaScript (ES6+)</div>
-          <div class="skill-card">React &amp; Modern Frontend Frameworks</div>
-          <div class="skill-card">Node.js &amp; RESTful APIs</div>
-          <div class="skill-card">Databases (SQL &amp; NoSQL)</div>
-          <div class="skill-card">Version Control &amp; Git Workflows</div>
-          <div class="skill-card">Deployment &amp; Cloud Hosting</div>
-        </div>
-      </section>
-
-      <section id="projects" class="section projects">
-        <div class="section-heading">
-          <p class="section-label">Projects</p>
-          <h2>Sample work &amp; demo projects.</h2>
-          <p class="section-note">More real projects coming soon.</p>
-        </div>
-        <div class="projects-grid">
-          <article class="project-card">
-            <span class="project-label">Sample Project / Demo Work</span>
-            <h3>Business Landing Page</h3>
-            <p>
-              A conversion-focused landing page with modern sections, CTA flows,
-              and responsive layouts.
-            </p>
-          </article>
-          <article class="project-card">
-            <span class="project-label">Sample Project / Demo Work</span>
-            <h3>Creative Portfolio</h3>
-            <p>
-              A clean, animated portfolio experience for designers and
-              freelancers.
-            </p>
-          </article>
-          <article class="project-card">
-            <span class="project-label">Sample Project / Demo Work</span>
-            <h3>Startup Dashboard UI</h3>
-            <p>
-              A modern dashboard interface with data cards, charts, and
-              user-friendly navigation.
-            </p>
-          </article>
-          <article class="project-card">
-            <span class="project-label">Sample Project / Demo Work</span>
-            <h3>Service Booking Site</h3>
-            <p>
-              A booking website concept showcasing scheduling, services, and
-              contact workflows.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="services" class="section services">
-        <div class="section-heading">
-          <p class="section-label">Services</p>
-          <h2>Professional web solutions for your brand.</h2>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>Website Design</h3>
-            <p>
-              Pixel-perfect UI/UX design focused on clarity, trust, and
-              conversion.
-            </p>
-          </div>
-          <div class="service-card">
-            <h3>Full Website Development</h3>
-            <p>
-              Full-stack development with performance, security, and scalability
-              in mind.
-            </p>
-          </div>
-          <div class="service-card">
-            <h3>Responsive Web Design</h3>
-            <p>
-              Mobile-first layouts that look flawless across phones, tablets,
-              and desktop screens.
-            </p>
       <section class="section" id="skills">
         <div class="section-heading">
           <p class="eyebrow">Skills</p>
@@ -323,38 +177,24 @@
         </div>
       </section>
 
-      <section id="contact" class="section contact">
+      <section class="section" id="admin">
         <div class="section-heading">
-          <p class="section-label">Contact</p>
-          <h2>Let’s build something impactful together.</h2>
+          <p class="eyebrow">Admin Control</p>
+          <h2>Private admin access to upload posts, projects, and media.</h2>
         </div>
-        <div class="contact-grid">
-          <div class="contact-info">
-            <p>
-              Have a project in mind? Fill out the form and I will get back to
-              you promptly.
-            </p>
-            <div class="contact-list">
-              <div>
-                <span>Email</span>
-                <a href="mailto:hafizmuhammadmeeladraza@gmail.com"
-                  >hafizmuhammadmeeladraza@gmail.com</a
-                >
-              </div>
-              <div>
-                <span>WhatsApp</span>
-                <a href="https://wa.me/923270447262" target="_blank" rel="noreferrer"
-                  >03270447262</a
-                >
-              </div>
-            </div>
+        <div class="two-column">
+          <p>
+            The admin control panel is reserved for you, allowing you to upload project posts, photos, and custom
+            content just like a WordPress-style dashboard. You can also grant admin access to trusted collaborators.
+          </p>
+          <div class="action-card">
+            <h3>Admin Workspace</h3>
+            <p>Upload posts with images, manage content, and showcase your portfolio updates.</p>
+            <a class="button primary" href="admin.html">Go to Admin Panel</a>
           </div>
-          <form
-            class="contact-form"
-            action="mailto:hafizmuhammadmeeladraza@gmail.com"
-            method="POST"
-            enctype="text/plain"
-          >
+        </div>
+      </section>
+
       <section class="section contact" id="contact">
         <div class="section-heading">
           <p class="eyebrow">Contact</p>
@@ -368,24 +208,6 @@
             </label>
             <label>
               Email
-              <input
-                type="email"
-                name="email"
-                placeholder="you@example.com"
-                required
-              />
-            </label>
-            <label>
-              Message
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="Tell me about your project"
-                required
-              ></textarea>
-            </label>
-            <button class="btn primary" type="submit">Send Message</button>
-          </form>
               <input type="email" name="email" placeholder="you@example.com" required />
             </label>
             <label>
@@ -409,30 +231,6 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-content">
-        <p>© 2024 HAFIZ MUHAMMAD MEELAD RAZA. All rights reserved.</p>
-        <div class="social-links">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-          <a
-            href="https://wa.me/923270447262"
-            target="_blank"
-            rel="noreferrer"
-            >WhatsApp</a
-          >
-          <a
-            href="https://whatsapp.com/channel/0029VbBr26wLSmbkB0sooQ3W"
-            target="_blank"
-            rel="noreferrer"
-            >WhatsApp Channel</a
-          >
-          <a
-            href="https://www.facebook.com/share/1Arx2dxpmw/"
-            target="_blank"
-            rel="noreferrer"
-            >Facebook</a
-          >
-        </div>
-      </div>
       <div>
         <h3>HAFIZ MUHAMMAD MEELAD RAZA</h3>
         <p>Full Stack Web Developer • Building trustworthy digital products.</p>
