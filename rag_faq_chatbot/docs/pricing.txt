@@ -1,0 +1,5 @@
+Pricing FAQ
+- Starter plan: $49/month for up to 5 users.
+- Growth plan: $199/month for up to 25 users.
+- Enterprise plan: $499/month with SSO and priority support.
+- Annual billing gives 15% discount.

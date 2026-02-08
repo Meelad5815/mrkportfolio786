@@ -1,0 +1,5 @@
+# Zero mandatory dependencies for core offline mode.
+# Optional extras:
+openai>=1.40.0
+python-dotenv>=1.0.1
+pypdf>=4.3.1

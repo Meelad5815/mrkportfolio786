@@ -1,0 +1,5 @@
+Support Policy
+- Email support: 24-hour response on business days.
+- Growth: live chat from 9am to 6pm UTC.
+- Enterprise: 24/7 critical incident support.
+- SLA for enterprise incidents: first response within 1 hour.
