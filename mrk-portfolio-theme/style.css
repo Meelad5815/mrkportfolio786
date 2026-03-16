@@ -1,0 +1,20 @@
+/*
+Theme Name: MRK Portfolio Theme
+Theme URI: https://github.com/Meelad5815/mrkportfolio786
+Author: Hafiz Muhammad Meelad Raza
+Author URI: https://github.com/Meelad5815
+Description: A modern, responsive, and Elementor-compatible WordPress portfolio theme with dynamic projects, blog, and authentication templates.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 7.4
+Text Domain: mrk-portfolio-theme
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: portfolio, blog, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/*
+ * Theme styles are loaded from assets/css/style.css using wp_enqueue_style().
+ * Keep this file for WordPress theme metadata.
+ */
